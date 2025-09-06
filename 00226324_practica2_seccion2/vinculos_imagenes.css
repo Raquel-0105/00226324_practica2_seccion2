@@ -1,0 +1,14 @@
+.contanier {
+    display: grid ; /* or inline-flex */
+     grid-template-columns:
+        1fr 1fr
+        minimax(10px, 1fr) 3fr
+        repeat(5, 1fr)
+        50px auto 100px 1fr;
+
+/* e.g.
+  grid-template-rows:width: 
+    min-content 1fr min-content
+    00px 1fr max-content
+*/
+}

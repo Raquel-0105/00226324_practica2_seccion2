@@ -1,0 +1,18 @@
+.contanier {
+    display: flex; /* or inline-flex */
+    flex-dirction: "colum "; /* o Row dependiendo del caso */
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    gap: 10px 20px; /* row-gap colum gap */
+    row-gap: 10px;
+    columgap: 20px;
+}
+
+.item {
+    flex-grow: 1; /* espacio de los elements internos */
+}
+
+.tem-2 {
+    flex-grow: 2, /* espacio especial de elemento tem-2 */    
+}
